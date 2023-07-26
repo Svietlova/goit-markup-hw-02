@@ -1,0 +1,102 @@
+:root {
+    --primary-background: #FFFFFF;
+    --primary-color: #434343;
+    --brand-color: #4D5AE5;
+    --logo-color: #2e2f42;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--primary-background);
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav {
+
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+.accent {
+    color: var(--logo-color);
+}
+
+.nav-menu {
+
+}
+
+.address {
+
+}
+
+.hero-sect {
+
+}
+
+.order-btn {
+
+}
+
+.benefits-sect {
+
+}
+
+.benefits-list {
+
+}
+
+.fitches-sect {
+
+}
+
+.fitches-img {
+
+}
+
+.team {
+
+}
+
+.team-card {
+
+}
+
+.footer {
+
+}
+
+.footer-text {
+
+}
+
+.filter-sect {
+
+}
+
+.filter-btn {
+
+}
+
+.rows-sect {
+
+}
+
+.rows-card {
+
+}
