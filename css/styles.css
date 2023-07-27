@@ -1,13 +1,20 @@
 :root {
-    --primary-background: #FFFFFF;
-    --primary-color: #434343;
     --brand-color: #4D5AE5;
-    --logo-color: #2e2f42;
+    --pressed-color: #404BBF;
+    --heading-color: #2e2f42;
+    --text-color: #434455;
+    --primary-background: #FFFFFF;
+    --light-background: #F4F4FD;
+    --accent-color: #E7E9FC;
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: var(--text-color);
     background-color: var(--primary-background);
+}
+
+h2, h3, h4 {
+    color: var(--heading-color);
 }
 
 button {
@@ -15,7 +22,9 @@ button {
 }
 
 .nav {
-
+    background-color: var(--primary-background);
+    color: var(--heading-color);
+    
 }
 
 .logo {
@@ -26,31 +35,43 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);
+    text-decoration: none;
 }
 
 .link {
     text-decoration: none;
-    color: var(--brand-color);
+    color: var(--heading-color);
 }
 
 .accent {
-    color: var(--logo-color);
+    color: var(--heading-color);
+}
+
+footer .accent {
+color: var(--accent-color);
 }
 
 .nav-menu {
-
+color: var(--heading-color);
 }
 
 .address {
-
+color: var(--text-color)
 }
 
 .hero-sect {
-
+background-color: var(--heading-color);
+color: var(--primary-background);
 }
 
 .order-btn {
+color: var(--primary-background);
+background-color: var(--brand-color);
+}
 
+.order-btn:hover,
+.order-btn:active {
+    background-color: var(--pressed-color);
 }
 
 .benefits-sect {
@@ -70,7 +91,7 @@ button {
 }
 
 .team {
-
+    background-color: var(--light-background);
 }
 
 .team-card {
@@ -78,7 +99,8 @@ button {
 }
 
 .footer {
-
+    background-color: var(--heading-color);
+    color: var(--accent-color);
 }
 
 .footer-text {
@@ -90,7 +112,14 @@ button {
 }
 
 .filter-btn {
+color: var(--brand-color);
+background-color: var(--light-background);
+}
 
+.filter-btn:hover,
+.filter-btn:active {
+    color: var(--primary-background);
+    background-color: var(--pressed-color);
 }
 
 .rows-sect {
