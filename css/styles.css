@@ -7,24 +7,21 @@
     --light-background: #F4F4FD;
     --accent-color: #E7E9FC;
 }
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color: var(--primary-background);
 }
 
-h2, h3, h4 {
-    color: var(--heading-color);
+ol,
+ul {
+    list-style-type: none;
 }
 
-button {
-    cursor: pointer;
-}
+.header {
+background-color: inherit;
 
-.nav {
-    background-color: var(--primary-background);
-    color: var(--heading-color);
-    
 }
 
 .logo {
@@ -35,65 +32,78 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);
-    text-decoration: none;
 }
 
-a.link {
+.link {
     text-decoration: none;
-}
-
-
-
-ol, ul {
-    list-style-type: none;
 }
 
 .accent {
     color: var(--heading-color);
 }
 
-footer .accent {
-color: var(--accent-color);
+.list {
+    list-style: none;
 }
 
-.nav-menu {
-color: var(--heading-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-li.nav-link:hover,
-li.nav-link:active {
-    color: var(--pressed-color);
-}
-
-li.nav-link:focus {
-    color: var(--pressed-color)
-}
-
-address {
-    color: var(--text-color);
-    font-style: normal;
+.nav-link {
+    color: var(--heading-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.address {
-color: var(--text-color);
+.nav-link:hover,
+.nav-link:active {
+    color: var(--pressed-color);
+}
 
+.nav-link:focus {
+    color: var(--pressed-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.address-link:hover,
+.address-link:active {
+    color: var(--pressed-color);
+}
+
+.address-link:focus {
+    color: var(--pressed-color);
 }
 
 .hero-sect {
-background-color: var(--heading-color);
+    background-color: var(--heading-color);
+}
+
+.title {
+    font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
 color: var(--primary-background);
 }
 
 .order-btn {
-color: var(--primary-background);
-background-color: var(--brand-color);
+    background-color: var(--brand-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-background);
+    cursor: pointer;
 }
 
 .order-btn:hover,
@@ -101,26 +111,52 @@ background-color: var(--brand-color);
     background-color: var(--pressed-color);
 }
 
-.benefits-sect {
+.order-btn:focus {
+    background-color: var(--pressed-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.benefits-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--heading-color);
+}
+
+.benefits-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--heading-color);
 
 }
 
-.benefits-list {
-
-}
-
-.fitches-sect {
-
-}
-
-.fitches-img {
-
+.list {
+    list-style: none;
 }
 
 .team {
     background-color: var(--light-background);
 }
 
+.list {
+    list-style: none;
+}
+  < !-- закончила тут-->
+  
 .team-card {
     background-color: var(--primary-background);
 }
@@ -147,8 +183,4 @@ background-color: var(--light-background);
 .filter-btn:active {
     color: var(--primary-background);
     background-color: var(--pressed-color);
-}
-
-.rows-card {
-
 }
