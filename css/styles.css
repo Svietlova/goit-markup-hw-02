@@ -38,9 +38,14 @@ button {
     text-decoration: none;
 }
 
-.link {
+a.link {
     text-decoration: none;
-    color: var(--heading-color);
+}
+
+
+
+ol, ul {
+    list-style-type: none;
 }
 
 .accent {
@@ -53,10 +58,32 @@ color: var(--accent-color);
 
 .nav-menu {
 color: var(--heading-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+li.nav-link:hover,
+li.nav-link:active {
+    color: var(--pressed-color);
+}
+
+li.nav-link:focus {
+    color: var(--pressed-color)
+}
+
+address {
+    color: var(--text-color);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address {
-color: var(--text-color)
+color: var(--text-color);
+
 }
 
 .hero-sect {
@@ -95,20 +122,20 @@ background-color: var(--brand-color);
 }
 
 .team-card {
-
+    background-color: var(--primary-background);
 }
 
-.footer {
+footer {
     background-color: var(--heading-color);
     color: var(--accent-color);
 }
 
 .footer-text {
-
+ font-size: 16px;
 }
 
 .filter-sect {
-
+background-color: var(--primary-background);
 }
 
 .filter-btn {
@@ -120,10 +147,6 @@ background-color: var(--light-background);
 .filter-btn:active {
     color: var(--primary-background);
     background-color: var(--pressed-color);
-}
-
-.rows-sect {
-
 }
 
 .rows-card {
