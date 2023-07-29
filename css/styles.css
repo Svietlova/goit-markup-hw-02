@@ -38,7 +38,7 @@ background-color: inherit;
     text-decoration: none;
 }
 
-.accent {
+.accent-dark {
     color: var(--heading-color);
 }
 
@@ -127,7 +127,7 @@ letter-spacing: 0.02em;
 color: var(--heading-color);
 }
 
-.benefits-text {
+.text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -141,7 +141,6 @@ color: var(--heading-color);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--heading-color);
-
 }
 
 .list {
@@ -155,20 +154,28 @@ color: var(--heading-color);
 .list {
     list-style: none;
 }
-  < !-- закончила тут-->
-  
+ 
 .team-card {
     background-color: var(--primary-background);
 }
 
-footer {
+.footer {
     background-color: var(--heading-color);
     color: var(--accent-color);
 }
 
+.accent-ligth {
+    color: var(--light-background);
+}
+
 .footer-text {
  font-size: 16px;
+ line-height: 1.5;
+ color: var(--light-background);
+ letter-spacing: 0.02em;
 }
+
+/* ЗАКОНЧИЛА ТУТ */
 
 .filter-sect {
 background-color: var(--primary-background);
